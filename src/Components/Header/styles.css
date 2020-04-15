@@ -1,0 +1,128 @@
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  padding-top: 10px;
+  width: 100vw;
+  flex-direction: column;
+  min-height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/HERO.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.linha1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1020px;
+  align-items: center;
+}
+.logo {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.texto-logo p {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.texto-logo p span {
+  font-size: 12px;
+}
+
+.itens-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .linha1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .itens-header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pesquisar {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .texto-logo p {
+    font-size: 18px;
+  }
+
+  .texto-logo p span {
+    font-size: 12px;
+  }
+}
+
+.pesquisar {
+  width: 60%; /* define a largura do campo */
+  position: relative; /* cria o contexto de posicionamento do botão */
+}
+
+.pesquisar button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.pesquisar input {
+  padding: 5px;
+  border: 5px;
+  width: 100%;
+}
+.links-header {
+  font-size: 16px;
+  color: #fff;
+}
+.link-header {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 20px;
+}
+.linha2 {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1020px;
+  height: 60px;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 2px;
+}
+
+.linha2 li {
+  padding: 20px;
+  display: inline;
+}

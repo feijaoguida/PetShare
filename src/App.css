@@ -7,10 +7,74 @@
   box-sizing: border-box;
 }
 
+p {
+  color: rgb(72, 72, 72);
+}
+
+.titulo-paragrafo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #f2726f;
+}
+
+.descricao-paragrafo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+
 body {
   font: 400 14px Roboto, sans-serif;
-  background: #f0f0f5;
+  background: rgb(248, 248, 248);
   -webkit-font-smoothing: antialiased;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+  color: #000000;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+
+  letter-spacing: 0.15px;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+button {
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  height: 40;
+  background: #f2726f;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(90%);
 }
 
 input,
@@ -19,66 +83,11 @@ textarea {
   font: 400 18px Roboto, sans-serif;
 }
 
-button {
-  cursor: pointer;
-}
-
-form input {
-  width: 100%;
-  height: 60px;
+form input,
+input {
   color: #333;
+  height: 40;
   border: 1px solid #dcdce6;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 0 24px;
-}
-
-form textarea {
-  width: 100%;
-  min-height: 140px;
-  resize: vertical;
-  color: #333;
-  border: 1px solid #dcdce6;
-  border-radius: 8px;
-  padding: 16px 24px;
-  line-height: 24px;
-}
-
-.button {
-  width: 100%;
-  height: 60px;
-  background: #e0dd20;
-  border: 0;
-  border-radius: 8px;
-  color: #fff;
-  font-weight: 700;
-  margin-top: 16px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
-  transition: filter 0.2s;
-}
-
-.button:hover {
-  filter: brightness(90%);
-}
-
-.back-link {
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  color: #41414d;
-  font-size: 18px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: opacity 0.2s;
-}
-
-.back-link svg {
-  margin-right: 8px;
-}
-
-.back-link:hover {
-  opacity: 0.8;
 }

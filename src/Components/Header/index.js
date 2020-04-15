@@ -1,17 +1,35 @@
 import React from "react";
+import { FiSearch } from "react-icons/fi";
 
-import "./styles";
+import "./styles.css";
+
+import Logo from "../../assets/Logo.png";
 
 export default function Header() {
   return (
     <header>
       <div className="container-header">
         <div className="linha1">
-          <div className="logo">logo</div>
+          <div className="logo">
+            <img src={Logo} alt="Logo PetShare" />
+            <div className="texto-logo">
+              <p>
+                {" "}
+                <strong>PetShare</strong>{" "}
+              </p>
+              <p>
+                <span>Mais que um Pet, Família</span>
+              </p>
+            </div>
+          </div>
           <div className="itens-header">
             <div className="pesquisar">
               <input type="text" name="pesquisar" id="pesquisar" />
-              <input type="button" value="submit" />
+              <button>
+                {"    "}
+                <FiSearch />
+                {"    "}
+              </button>
             </div>
             <div className="links-header">
               <a href="#" className="link-header">
