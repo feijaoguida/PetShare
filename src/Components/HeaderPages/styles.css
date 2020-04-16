@@ -5,7 +5,7 @@
   padding-top: 10px;
   width: 100vw;
   flex-direction: column;
-  min-height: 80vh;
+  min-height: 40vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../assets/HERO.png");
   background-position: center;
@@ -22,7 +22,6 @@
   max-width: 1020px;
   align-items: center;
 }
-
 .logo {
   width: 50%;
   display: flex;
@@ -64,7 +63,6 @@
   .itens-header {
     flex-direction: column;
     justify-content: center;
-    margin: 0px 10px;
   }
 
   .pesquisar {

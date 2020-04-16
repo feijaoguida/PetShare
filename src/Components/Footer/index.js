@@ -1,16 +1,18 @@
 import React from "react";
+import { FiFacebook, FiTwitter } from "react-icons/fi";
 
 import "./styles.css";
 import Logo from "../../assets/Logo.png";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <div className="footer-container">
       <div className="colunas">
         <div className="coluna1">
-          <div className="logo">
+          <div className="logoRodape">
             <img src={Logo} alt="Logo PetShare" />
-            <div className="texto-logo">
+            <div className="texto-logoRodape">
               <p>
                 {" "}
                 <strong>PetShare</strong>{" "}
@@ -19,6 +21,12 @@ export default function Footer() {
                 <span>Mais que um Pet, Família</span>
               </p>
             </div>
+          </div>
+          <div className="nossaRedes">
+            <FiFacebook color="#5D62B5" size={30} />
+            <FiTwitter color="#5D62B5" size={30} />
+            <FaWhatsapp color="#5D62B5" size={30} />
+            <FaInstagram color="#5D62B5" size={30} />
           </div>
         </div>
         <div className="coluna2">

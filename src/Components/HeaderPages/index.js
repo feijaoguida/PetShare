@@ -1,6 +1,6 @@
 import React from "react";
-import { FiSearch } from "react-icons/fi";
 import { Link, useHistory } from "react-router-dom";
+import { FiSearch } from "react-icons/fi";
 
 import "./styles.css";
 
@@ -12,7 +12,9 @@ export default function Header() {
       <div className="container-header">
         <div className="linha1">
           <div className="logo">
-            <img src={Logo} alt="Logo PetShare" />
+            <Link to="/">
+              <img src={Logo} alt="Logo PetShare" />
+            </Link>
             <div className="texto-logo">
               <p>
                 {" "}

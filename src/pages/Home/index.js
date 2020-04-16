@@ -221,7 +221,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="destaque"></div>
       </div>
       <Footer></Footer>
     </div>

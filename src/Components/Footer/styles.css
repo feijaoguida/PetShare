@@ -4,6 +4,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../../assets/bgRodape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .colunas {
@@ -21,8 +30,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: baseline;
-  background-color: blue;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
 }
 
 .coluna2 {
@@ -30,8 +40,9 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  background-color: rgb(19, 37, 3);
+  align-items: center;
+
+  margin: 40px 0;
 }
 
 .coluna3 {
@@ -40,7 +51,8 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  background-color: rgb(21, 255, 0);
+
+  margin: 40px 0;
 }
 
 .rodape {
@@ -61,7 +73,7 @@
   line-height: 42px;
 }
 
-.logo {
+.logoRodape {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -69,17 +81,23 @@
   padding: 10px;
 }
 
-.logo img {
+.logoRodape img {
   width: 60px;
   height: 60px;
 }
 
-.texto-logo p {
+.texto-logoRodape p {
   font-size: 16px;
   color: #4b4b4b;
   padding-left: 10px;
 }
 
-.texto-logo p span {
+.texto-logoRodape p span {
   font-size: 12px;
+}
+
+.nossaRedes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }

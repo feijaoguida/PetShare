@@ -10,7 +10,7 @@
 .home-body,
 .color {
   width: 100%;
-  border-radius: 8px;
+
   flex-direction: column;
   display: flex;
   justify-content: center;
