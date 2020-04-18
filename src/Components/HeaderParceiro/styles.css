@@ -1,13 +1,13 @@
-.containerPages-header {
+.containerParceiro-header {
   display: flex;
   align-items: center;
   justify-content: baseline;
   padding-top: 10px;
   width: 100vw;
   flex-direction: column;
-  min-height: 40vh;
+  min-height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../assets/HERO.png");
+    url("../../assets/bgparceiro.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,6 +22,7 @@
   max-width: 1020px;
   align-items: center;
 }
+
 .logo {
   width: 50%;
   display: flex;
@@ -63,6 +64,7 @@
   .itens-header {
     flex-direction: column;
     justify-content: center;
+    margin: 0px 10px;
   }
 
   .pesquisar {

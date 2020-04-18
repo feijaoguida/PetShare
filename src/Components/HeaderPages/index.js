@@ -9,7 +9,7 @@ import Logo from "../../assets/Logo.png";
 export default function Header() {
   return (
     <header>
-      <div className="container-header">
+      <div className="containerPages-header">
         <div className="linha1">
           <div className="logo">
             <Link to="/">
@@ -47,13 +47,13 @@ export default function Header() {
         <div className="linha2">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <a href="#">Sobre</a>
             </li>
             <li>
-              <a href="#">Pets</a>
+              <Link to="/ListaParceiros">Pets</Link>
             </li>
             <li>
               <a href="#">Blog</a>
